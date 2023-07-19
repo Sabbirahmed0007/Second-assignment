@@ -302,6 +302,7 @@ background-color: #FF42A5 ;
 }
 .online-game-videos{
     width:80%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,7 +313,7 @@ background-color: #FF42A5 ;
 
 }
 .online-game-videos .box{
-    width: 20%;
+    width: 25%;
     position: relative;
     border-radius: 3rem;
     display: inline-block;
@@ -327,7 +328,7 @@ background-color: #FF42A5 ;
     left:0;
     top:0;
     width: 100%;
-    height: 78%;
+    height: 79%;
     background-color: rgba(0, 0, 0, 0.5);
     opacity:0;
     display: flex;
@@ -380,6 +381,7 @@ background-color: #FF42A5 ;
     width: 50%;
     text-align: center;
     margin-right: 30px;
+    margin-bottom: 20px;
 
 }
 .game-showcase-title{
@@ -662,6 +664,9 @@ footer{
     }
     .game-showcase-text{
         width: 100%;
+    }
+    .game-showcase-title{
+        font-size: 2.5rem;
     }
     .game-showcase-images{
         width:64%;
