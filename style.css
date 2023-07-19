@@ -116,14 +116,14 @@ nav{
     color: #0B0223;
     text-align: center;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 .banner-text .title{
     text-align: center;
     font-family: Work Sans;
-    font-size: 95px;
+    font-size: 6rem;
     font-weight: 800;
     text-transform: uppercase;
     background-image: linear-gradient(to bottom, #F948B2 , #8758F1);
@@ -190,7 +190,7 @@ background-color: #FF42A5 ;
     max-width: 1400px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end ;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
     margin: 0 auto;
@@ -247,6 +247,7 @@ background-color: #FF42A5 ;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
+    margin:20px auto ;
     margin-left: 50px;
 
 
@@ -358,6 +359,68 @@ background-color: #FF42A5 ;
 }
 /* online game section ends */
 
+/* game showcase section style */
+.game-showcase-container{
+    max-width:1400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    margin-top: 80px;
+
+
+
+}
+
+.game-showcase-text{
+    width: 50%;
+    text-align: center;
+    margin-right: 30px;
+
+}
+.game-showcase-title{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    
+
+}
+.play-instantly{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.game-showcase-description{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+
+}
+.game-showcase-images{
+    width: 50%;
+    position: relative;
+}
+
+.image-one{
+    width:100%;
+
+}
+.image-two{
+    position: absolute;
+    left:-90px;
+    bottom:-60px;
+    width:220px;
+}
+
 
 
 
@@ -367,7 +430,7 @@ background-color: #FF42A5 ;
 
 /* Popular games section */
 .popular-games-container{
-    width:65%;
+    max-width:75%;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -520,6 +583,10 @@ footer{
 
 /* Media query for Mobile/smaller divices */
 @media screen and (max-width:575px) {
+
+   body{
+    max-width:100%;
+   }
     .nav-container,  .nav-menu{
         flex-direction: column;
     }
@@ -581,6 +648,22 @@ footer{
     }
     .overlay{
         height:92%;
+    }
+
+
+    /* game show case section */
+    .game-showcase-container{
+        width:100%;
+        flex-direction: column;
+    }
+    .game-showcase-text{
+        width: 100%;
+    }
+    .game-showcase-images{
+        width:64%;
+    }
+    .image-two{
+        width: 50%;
     }
 
 
@@ -706,6 +789,21 @@ footer{
 
     .overlay{
         height:82%;
+    }
+
+    /* game section */
+    .game-showcase-container{
+        width:100%;
+        flex-direction: column;
+    }
+    .game-showcase-text{
+        width: 100%;
+    }
+    .game-showcase-images{
+        width:64%;
+    }
+    .image-two{
+        width: 50%;
     }
 
 
