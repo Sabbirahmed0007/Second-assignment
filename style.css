@@ -438,13 +438,13 @@ font-weight: 400;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    gap:30px;
+    gap:40px;
     margin-top: 30px;
 
 }
 .popular-games{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     
 
@@ -461,13 +461,13 @@ font-weight: 400;
     font-family: Work Sans;
     font-size: .55rem;
     font-weight: 600;
+    padding:4px;
     
 }
 .popular-games:hover{
     border:2px solid rgb(246, 156, 171);
     padding: 4px ;
     border-radius:50px ;
-    transform: scale(1);
 }
 
 
