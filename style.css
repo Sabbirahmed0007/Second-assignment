@@ -45,6 +45,7 @@ nav{
     font-weight: 700;
     background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%) ;
      color:transparent;
+     background-clip: text;
      -webkit-background-clip:text;
    
     /* color:#FF42A5; */
@@ -127,6 +128,7 @@ nav{
     text-transform: uppercase;
     background-image: linear-gradient(to bottom, #F948B2 , #8758F1);
     color:transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     
 
@@ -172,7 +174,6 @@ nav{
 background: #4EC5F7;
 }
 .btn-two{
-    border-radius: 48px;
 background-color: #FF42A5 ;
 }
 
@@ -184,6 +185,87 @@ background-color: #FF42A5 ;
     width:100%;
 }
 /* banner section ends */
+/* about/we are gamer section style*/
+.we-are-gamer-container{
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+
+}y
+.we-are-gamer-image{
+    width: 50%;
+    border: 1px solid violet;
+}
+.we-are-gamer-image img{
+    width:100%;
+
+}
+.we-are-gamer-text{
+    width:50%;
+
+}
+
+.we-are-gamer-text .we-are-gamer-title{
+    background-image: linear-gradient( to bottom, #F948B2 , #8758F1 );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+
+
+
+}
+.we-are-gamer-text .we-are-gamer-description{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+.we-are-gamer-btn{
+    /* display: inline-flex; */
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 48px;
+    background-color:  #FF42A5 ;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 50px;
+
+
+}
+.we-are-gamer-purpose{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.we-are-gamer-purpose .unleash{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+}
+
 
 
 
@@ -201,7 +283,7 @@ background-color: #FF42A5 ;
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
     -webkit-background-clip: text;
-   
+    background-clip: text;
     font-family: Work Sans;
     font-size: 48px;
     font-weight: 700;
@@ -274,7 +356,7 @@ background-color: #FF42A5 ;
 .fa-circle-play{
     font-size: 3rem;
 }
-
+/* online game section ends */
 
 
 
@@ -460,6 +542,32 @@ footer{
 .banner-primary-btn{
     padding:15px 30px;
 }
+/* we are gamer sction */
+.we-are-gamer-container{
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+    margin:10px;
+    justify-content: center;
+}
+.we-are-gamer-image img{
+    width:100%;
+}
+.we-are-gamer-text {
+    width:100%;
+    text-align:center;
+}
+.we-are-gamer-text .we-are-gamer-title {
+    text-align: center;
+}
+.we-are-gamer-text .we-are-gamer-description{
+    text-align: center;
+}
+.we-are-gamer-purpose{
+    text-align: center;
+}
+
+/* online section */
 
     .online-game-videos{
         flex-direction: column;
@@ -474,9 +582,6 @@ footer{
     .overlay{
         height:92%;
     }
-
-
-
 
 
 
@@ -555,6 +660,33 @@ footer{
     .banner-primary-btn{
         padding:17px 35px;
     }
+
+
+    /* we are gamer sction */
+.we-are-gamer-container{
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+    margin:10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.we-are-gamer-image img{
+    width:100%;
+}
+.we-are-gamer-text {
+    width:100%;
+    text-align:center;
+}
+.we-are-gamer-text .we-are-gamer-title {
+    text-align: center;
+}
+.we-are-gamer-text .we-are-gamer-description{
+    text-align: center;
+}
+.we-are-gamer-purpose{
+    text-align: center;
+}
   
 /* online games funny videos */
     .online-game-videos{
