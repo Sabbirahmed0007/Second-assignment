@@ -168,6 +168,8 @@ nav{
     border-radius: 48px;
     border: none;
     padding: 20px 40px;
+    cursor: pointer;
+
 
 
 }
@@ -247,10 +249,11 @@ background-color: #FF42A5 ;
     border-radius: 48px;
     background-color:  #FF42A5 ;
     align-content: flex-start;
-    /* justify-content: flex-start; */
     gap: 10px;
     margin:20px auto ;
     margin-left: 50px;
+    cursor: pointer;
+
 
 
 }
@@ -535,6 +538,10 @@ footer{
 .footer-media  a{
     text-decoration: none;
     
+}
+.footer-media a:hover{
+    transform: scale(1.1) translate(4px);
+
 }
 .privacy-policy{
     display: flex;
